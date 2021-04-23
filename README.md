@@ -1,0 +1,2 @@
+# temelMatematik
+android studio - kotlin
