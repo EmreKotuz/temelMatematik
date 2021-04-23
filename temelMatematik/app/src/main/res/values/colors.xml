@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#673AB7</color>
+    <color name="colorAccent">#9AFF0048</color>
+    <color name="şeffaf">#6ADBC83D</color>
+    <color name="sade">#C9BD21E0</color>
+    <color name="kahverengi">#C9493131</color>
+    <color name="beyazz">#C9FFFFFF</color>
+    <color name="turuncu">#FF5722</color>
+    <color name="mavi">#03A9F4</color>
+
+</resources>

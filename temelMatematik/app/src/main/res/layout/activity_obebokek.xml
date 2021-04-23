@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".obebokek">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView178"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) OBEB : "
+            android:textColor="#9C27B0"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView179"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Aynı anda iki veya daha fazla tam sayıyı bölen pozitif bölen sayıların en büyüğüne bu sayıların Ortak Bölenlerinin En Büyüğü (OBEB) denir. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView182"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B) OKEK : "
+            android:textColor="#9C27B0"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView183"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" İki yada daha fazla tam sayının ortak katlarının en küçüğüne OKEK denir."
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView203"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OKEK iki yolla bulunabilir."
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verilen sayılar beraber asal çarpanlara ayrılır ve bu sayıları bölen asal çarpanlar birbirleriyle çarpılır. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sayılar asal çarpanlarına ayrılır. Ve ortak asal çarpan sayılardan üslerinin en büyükleri ile ortak olmaya asal çarpan çarpılır. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBEB bölen sayıyı ( genellikle küçük sayıyı),  OKEK ise bölünen sayıyı (genellikle büyük sayıyı) temsil eder. OBEB i ve OKEK i alınacak sayılar eşit ise OBEB ve OKEK o sayıya eşittir. OBEB (a,b)=x olsun "
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" a=kx,    b=xt  olacak şekilde k ve t aralarında asal sayılar mevcuttur."
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OKEK(x,y)=a olsun."
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="k=a,     y.t=a  olacak şekilde k ve t aralarında asal sayıları mevcuttur."
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView206"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBEB(x,y)=a"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OKEK(x,y)=b ise"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x+y nin en büyük değeri a+b olabilir."
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a ve b aralarında asal ise"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" OBEB(a,b)=1"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" OKEK(a,b)=a.b dir."
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6537190103014639/9426873312"></com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</ScrollView>

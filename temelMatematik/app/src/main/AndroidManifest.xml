@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emre4.a10admdamatematik">
+
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="[ca-app-pub-6537190103014639~4549117005]" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icony"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icond"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.matematik.emre4.a10admdamatematik.haberSayfasi"></activity>
+        <activity android:name="com.matematik.emre4.a10admdamatematik.whatsappBilgi" />
+        <activity android:name="com.matematik.emre4.a10admdamatematik.reklam" />
+        <activity android:name=".KolayMatematik" />
+        <activity android:name="com.matematik.emre4.a10admdamatematik.basitEsitsizlik" />
+        <activity android:name="com.matematik.emre4.a10admdamatematik.kokluSayilar" />
+        <activity android:name=".kullaniciGiris" />
+        <activity android:name=".bizeYazin" />
+        <activity android:name=".destek" />
+        <activity android:name="com.matematik.emre4.a10admdamatematik.destekOl" />
+        <activity android:name="com.matematik.emre4.a10admdamatematik.animasyon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".konular" />
+        <activity android:name=".sayiler" />
+        <activity android:name=".SayiBasamaklari" />
+        <activity android:name=".bolme" />
+        <activity android:name=".obebokek" />
+        <activity android:name=".rasyonel" />
+        <activity android:name=".mutlakdeger" />
+        <activity android:name=".oranOranti" />
+        <activity android:name=".reklam" />
+    </application>
+
+</manifest>
